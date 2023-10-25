@@ -1,0 +1,6 @@
+@import "normalize.css";
+@import "style.css";
+@import "../header/header.css";
+@import "../advantages/advantages.css";
+@import "../contacts/contacts.css";
+@import "../footer/footer.css";

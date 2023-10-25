@@ -1,0 +1,161 @@
+.header {
+    padding-top: 40px;
+    height: 732px;
+
+}
+
+.nav__adaptive-img {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.nav__call {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.nav__call a {
+    text-align: center;
+    font-size: 23.85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav__call p {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__content {
+    max-width: 990px;
+    height: 384px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.86);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+
+.header__content p {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.625%; 
+    margin-bottom: 90px;
+}
+
+.header__btn {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 48px;
+    border-radius: 50px;
+    background: #15A9CB;
+    box-shadow: 0px 4px 25px 0px rgba(21, 169, 203, 0.30);
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    .bcg1 {
+        background-size: 1024px;
+    }
+    .header {
+        height: auto;
+        padding-top: 26px;
+    }
+    .nav__logo {
+        width: 60px;
+        height: auto;
+    }
+    .nav {
+        margin-bottom: 70px;
+    }
+
+    h1 {
+        color: rgba(255, 255, 255, 0.86);
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        margin-bottom: 27px;
+    }
+
+    .header__content {
+        max-width: 750px;
+    }
+    
+    .header__content p {
+        color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140.625%; 
+        margin-bottom: 60px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .logo {
+        width: 30px;
+    }
+
+    .call {
+        display: none;
+    }
+
+    .nav__adaptive-img {
+        display: block;
+    }
+
+    .nav {
+        margin-bottom: 65px;
+    }
+
+    .header__content h1 {
+        font-size: 20px;
+        margin-bottom: 23px;
+    }
+
+    .header__content p {
+        font-size: 14px;
+        margin-bottom: 54px;
+    }
+    
+}
+
+
+
